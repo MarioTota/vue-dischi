@@ -13,8 +13,8 @@
 </head>
 <body>
   <header>
-      <img src="img/spotify.png" alt="">
-    </header>
+    <img src="img/spotify.png" alt="">
+  </header>
   <div id="root">
     <div class="cd" v-for="cd in cds">
       <div class="img">
@@ -25,6 +25,16 @@
       <div class="year">{{ cd.year }}</div>
     </div>
   </div>
+  <footer>
+    <label for="">Filtra per genere</label>
+    <select class="" name="">
+      <option value=""></option>
+      <option value="">rock</option>
+      <option value="">pop</option>
+      <option value="">jazz</option>
+      <option value="">metal</option>
+    </select>
+  </footer>
   <script src="script.js" charset="utf-8"></script>
 </body>
 </html>
