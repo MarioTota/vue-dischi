@@ -15,9 +15,10 @@
     </header>
   <div id="root">
     <div class="cd" v-for="cd in cds">
-      <div class="title">
-        {{ cd }}
-      </div>
+      <img :src="cd.poster" alt="">
+      <div class="title">{{ cd.title }}</div>
+      <div class="author">{{ cd.author }}</div>
+      <div class="year">{{ cd.year }}</div>
     </div>
   </div>
   <script src="script.js" charset="utf-8"></script>
