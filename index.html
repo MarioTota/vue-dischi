@@ -27,12 +27,12 @@
   </div>
   <footer>
     <label for="">Filtra per genere</label>
-    <select class="" name="">
+    <select class="select">
       <option value=""></option>
-      <option value="">rock</option>
-      <option value="">pop</option>
-      <option value="">jazz</option>
-      <option value="">metal</option>
+      <option value="rock" v-model="selezione">Rock</option>
+      <option value="pop" v-model="selezione">Pop</option>
+      <option value="jazz" v-model="selezione">Jazz</option>
+      <option value="metal" v-model="selezione">Metal</option>
     </select>
   </footer>
   <script src="script.js" charset="utf-8"></script>

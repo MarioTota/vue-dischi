@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: white;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,6 +14,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  color: white;
 }
 header {
   background-color: black;
@@ -70,7 +70,11 @@ footer {
   background-color: black;
   display: flex;
   align-items: center;
+  color: white;
 }
 footer label {
   padding: 0 20px;
+}
+footer select option {
+  color: black;
 }
