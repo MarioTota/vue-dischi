@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 #root {
@@ -33,10 +34,29 @@ header img {
   width: 160px;
   height: 250px;
   margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.cd .img {
+  height: 104px;
 }
 .cd img {
   width: 100px;
   height: 100px;
   object-fit: cover;
   object-position: center;
+}
+.cd .title {
+  text-transform: uppercase;
+  font-size: 20px;
+  height: 80px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.cd .author {
+  font-size: 17px;
+  height: 28px;
+}
+.cd .year {
+  font-size: 15px;
 }
