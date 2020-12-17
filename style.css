@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  background-color: #141B22;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+header img {
+  color: white;
+  height: 45px;
+  padding-left: 10px;
+}
+
+.cd {
+  background-color: coral;
+  width: 210px;
+  height: 300px;
+  margin: 10px;
+}
+.cd img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
