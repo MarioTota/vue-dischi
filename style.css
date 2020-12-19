@@ -7,9 +7,8 @@
 
 #root {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: #141B22;
-  padding: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -22,13 +21,26 @@ header {
   height: 10vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 header img {
   color: white;
   height: 45px;
-  padding-left: 10px;
 }
+header .filtro {
 
+}
+header .filtro select {
+  padding: 6px 10px;
+  border-radius: 18px;
+  background-color: #1C1C1C;
+  color: #929496;
+  border: none;
+}
+header .filtro label {
+  color: #929496;
+}
 .cd {
   background-color: #344152;
   width: 160px;
@@ -36,6 +48,7 @@ header img {
   margin: 10px;
   text-align: center;
   padding: 10px;
+  cursor: pointer;
 }
 .cd .img {
   height: 104px;
@@ -64,17 +77,10 @@ header img {
   color: white;
   opacity: 0.7;
 }
-
-footer {
-  height: 10vh;
-  background-color: black;
-  display: flex;
-  align-items: center;
-  color: white;
+label {
+  align-self: flex-end;
+  padding-right: 10px;
 }
-footer label {
-  padding: 0 20px;
-}
-footer select option {
-  color: black;
+select {
+  align-self: flex-end;
 }
